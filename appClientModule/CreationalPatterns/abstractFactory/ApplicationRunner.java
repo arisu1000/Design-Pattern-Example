@@ -7,7 +7,7 @@ public class ApplicationRunner {
 
 	private static GUIFactory createOsSpeificFactory() {
 		int sys = readFromConfigFile("OS_TYPE");
-		if (sys == 0) {
+		if (sys == 1) {
 			return new WinFactory();
 		}else{  
 			return new OSXFactory();
