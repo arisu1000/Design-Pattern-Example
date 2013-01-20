@@ -1,5 +1,8 @@
 package CreationalPatterns.singleton;
 
+/*
+ * Lazy initialization
+ */
 public class SingletonLazy {
 	private static volatile SingletonLazy instance = null;
 	 
