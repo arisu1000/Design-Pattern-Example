@@ -1,5 +1,6 @@
 package StructuralPatterns.decorator;
 
+//Window 인터페이스
 public interface Window {
 
 	public void draw(); // Window를 그림
